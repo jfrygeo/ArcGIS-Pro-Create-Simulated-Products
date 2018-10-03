@@ -13,7 +13,7 @@ The image below shows some example tracks and the create features tab.
 
 ![Create Features](https://github.com/jfrygeo/ArcGIS-Pro-Create-Simulated-Products/blob/master/Screencaptures/CreateTracksEditAttributeData.PNG "Create Features")
 
-Once a user creates the tracks the user must save the edits. Now the user can run the <b>Create Simulated Points for GeoEvent<b> tool. The tool allows the user to specify the tracks (in which the user edited above), an output folder, and a name for the CSV file. 
+Once a user creates the tracks the user must save the edits. Now the user can run the <b>Create Simulated Points for GeoEvent</b> tool. The tool allows the user to specify the tracks (in which the user edited above), an output folder, and a name for the CSV file. 
   
 ![Create Features](https://github.com/jfrygeo/ArcGIS-Pro-Create-Simulated-Products/blob/master/Screencaptures/CreateSimulatedPointsForGeoEventGUI.PNG "Create Features")
   
