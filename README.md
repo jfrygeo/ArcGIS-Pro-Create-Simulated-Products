@@ -13,6 +13,14 @@ The image below shows some example tracks and the create features tab.
 
 ![Create Features](https://github.com/jfrygeo/ArcGIS-Pro-Create-Simulated-Products/blob/master/Screencaptures/CreateTracksEditAttributeData.PNG "Create Features")
 
+<b>If you already have created your own track data with a different schema</b> be aware that there are fields in the template track data that allow the model to work. Please make sure you get your data into the fields below:
+
+* <b>FieldName</b> - Used for Iterate Row Selection tool
+* <b>Distance_1_sec</b> - Used for Calculate Distance Field tool and others
+* <b>PlatformTypeName</b> - Used for Platform Type Name Field tool and others
+* <b>Count</b> - Used for Iterate Count tool
+* <b>Date_Time_1</b> - Used for Calculate Time Field tool
+
 Once a user creates the tracks the user must save the edits. Now the user can run the <b>Create Simulated Points for GeoEvent</b> tool. The tool allows the user to specify the tracks (in which the user edited above), an output folder, and a name for the CSV file. 
   
 ![Create Features](https://github.com/jfrygeo/ArcGIS-Pro-Create-Simulated-Products/blob/master/Screencaptures/CreateSimulatedPointsForGeoEventGUI.PNG "Create Features")
