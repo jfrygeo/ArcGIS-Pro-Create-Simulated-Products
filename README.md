@@ -1,6 +1,8 @@
 # ArcGIS-Pro-Create-Simulated-Products
 ArcGIS Pro project that contains a tool that allows a user to create a csv output to be used as simulation file for ArcGIS GeoEvent Server. The tool takes a user edited track and a defined speed of a platform and creates points along the track line in a distance defined by the time of 1 sec. For instance, if a vessel is travelling 60 km/hr the line will have a point every 16.667 meters. When these points will be in the simulator (at 1 second updates), an updated will show the position 16.67 meters away. The tool also calculates the heading of the points along the line. 
 
+## Background
+
 ## Usage
 A user can open the [CreateSimulatedProducts ArcGIS Pro Package](https://github.com/jfrygeo/ArcGIS-Pro-Create-Simulated-Products/tree/master/Pro%20Package) to utilize the tool. 
 The map opens with some example data of track polylines and points. 
